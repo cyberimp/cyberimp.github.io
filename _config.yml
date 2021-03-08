@@ -58,26 +58,83 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Проекты # Title for the section
+  - title: Портфолио # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: ru_touhou
-        link: github.com/sproogen
+        link: sourceforge.net/p/touhou/code/HEAD/tree/trunk/
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+          - title:  ru_touhou sourceforge
+            icon: fas fa-hammer
+            url: https://sourceforge.net/p/touhou/code/HEAD/tree/trunk/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Движок для скроллшутера с нуля
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Движок на <mark>C++</mark>, с использованием <mark>OpenGL</mark> для рендера,
+          <mark>SDL_sound</mark> для звука, <mark>LUA</mark> для скриптинга, хостился на <mark>SVN</mark>.
 
-  - title: Experience # Title for the section
+      - layout: top-middle
+        title: Asteroids
+        link: github.com/cyberimp/Asteroids
+        # link_text: Project Website
+        additional_links:
+          - title: GitHub проекта
+            icon: fab fa-github
+            url: https://github.com/cyberimp/Asteroids
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Клон Atari Asteroids со сменным рендером, меняющимся по нажатию кнопки
+        description: | # this will include new lines to allow paragraphs
+          Движок на <mark>C#</mark>, с использованием <mark>OpenGL</mark> для рендера,
+          хостится на <mark>git</mark>.
+
+      - layout: top-middle
+        title: Pixchange bot
+        link: pixchange.herokuapp.com
+        # link_text: Project Website
+        additional_links:
+          - title: GitHub проекта
+            icon: fab fa-github
+            url: https://github.com/cyberimp/Pixchange
+          - title: Сайт проекта
+            icon: fas fa-globe
+            url: https://pixchange.herokuapp.com
+          - title: Бот проекта
+            icon: fab fa-telegram-plane
+            url: https://t.me/PixChangeBot
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Бот для телеметрии, отсылающий сообщение в телеграм при загрузке изображения по ссылке.
+        description: | # this will include new lines to allow paragraphs
+          Написан на <mark>Node.js</mark>, использует <mark>SQL</mark> для хранения пользователей и <mark>AWS</mark> для хранения картинок, хостится на <mark>Heroku</mark>.
+
+      - layout: top-middle
+        title: Spectrum Poweramp Visualisation
+        link: https://play.google.com/store/apps/details?id=spectrum.poweramp.vis
+        # link_text: Project Website
+        additional_links:
+          - title: Страница приложения в Play Market
+            icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=spectrum.poweramp.vis
+
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Каталог визуализаций для Poweramp
+        description: | # this will include new lines to allow paragraphs
+          Написан на чистой <mark>Java</mark>, кастомные View, очень много анимаций, с использованием рекламы <mark>Appodeal</mark>.
+
+  - title: Опыт работы # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
