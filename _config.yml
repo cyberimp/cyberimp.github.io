@@ -36,9 +36,9 @@ additional_links:
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
-- title: мой телеграм
-  icon: fab fa-telegram-plane
-  url: https://t.me/ovoshi
+  - title: мой телеграм
+    icon: fab fa-telegram-plane
+    url: https://t.me/ovoshi
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,12 +50,12 @@ gtag: "G-27RWTL36CM"
 # google_analytics: "UA-191465132-1"
 
 ## About Section
-#about_title: Обо мне
-#about_profile_image: images/profile.jpg
-#about_content: | # this will include new lines to allow paragraphs
-#
-#
-#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+about_title: Обо мне
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Меня зовут Андрей, я уверенный пользователь <mark>Linux</mark>, имею опыт в <mark>разработке ПО</mark>
+  для <mark>ПК</mark> и <mark>Android</mark> и уверенные познания в <mark>математике</mark>,
+  <mark>теории алгоритмов</mark> и <mark>паттернах разрботки</mark>.
 
 content:
   - title: Портфолио # Title for the section
@@ -76,7 +76,7 @@ content:
           Движок для скроллшутера с нуля
         description: | # this will include new lines to allow paragraphs
           Движок на <mark>C++</mark>, с использованием <mark>OpenGL</mark> для рендера,
-          <mark>SDL_sound</mark> для звука, <mark>LUA</mark> для скриптинга, хостился на <mark>SVN</mark>.
+          <mark>SDL_sound</mark> для звука, <mark>LUA</mark> для скриптинга, код хостился на <mark>SVN</mark>.
 
       - layout: top-middle
         title: Asteroids
@@ -93,7 +93,7 @@ content:
           Клон Atari Asteroids со сменным рендером, меняющимся по нажатию кнопки
         description: | # this will include new lines to allow paragraphs
           Движок на <mark>C#</mark>, с использованием <mark>OpenGL</mark> для рендера,
-          хостится на <mark>git</mark>.
+          код хостится на <mark>git</mark>.
 
       - layout: top-middle
         title: Pixchange bot
@@ -180,7 +180,11 @@ content:
         quote: >
           Сейчас называется “Технический колледж управления и коммерции”
         description: | # this will include new lines to allow paragraphs
-          За время обучения научился ключевым аспектам &mdash; работе в команде и завершению работы до дедлайна, так же изучал <mark>C</mark>, <mark>SQL</mark>, <mark>Object Pascal</mark>, <mark>PHP</mark> и <mark>perl</mark>.
+          За время обучения научился ключевым аспектам &mdash; работе в команде и
+          завершению работы до дедлайна, так же изучал <mark>C</mark>, <mark>SQL</mark>,
+          <mark>Object Pascal</mark>, <mark>PHP</mark> и <mark>perl</mark>, получил
+          необходимые знания в <mark>математике</mark> и <mark>теории алгоритмов</mark>
+          для самостоятельного создания ПО.
 
 #  - title: A Little More About Me
 #    layout: text
