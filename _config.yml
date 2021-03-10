@@ -62,6 +62,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Пыль
+        link: https://github.com/cyberimp/Dust
+        # link_text: Project Website
+        additional_links:
+          - title:  github
+            icon: fab fa-github
+            url: https://github.com/cyberimp/Dust
+          - title:  youtube demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=3RvzxkCBcSo
+
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Прототип аркады
+        description: | # this will include new lines to allow paragraphs
+          Прототип аркады на <mark>Unity</mark>, с <mark>REST</mark> бекэндом
+
+      - layout: top-middle
         title: ru_touhou
         link: sourceforge.net/p/touhou/code/HEAD/tree/trunk/
         # link_text: Project Website
