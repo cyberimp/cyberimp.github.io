@@ -55,7 +55,10 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Меня зовут Андрей, я уверенный пользователь <mark>Linux</mark>, имею опыт в <mark>разработке ПО</mark>
   для <mark>ПК</mark> и <mark>Android</mark> и уверенные познания в <mark>математике</mark>,
-  <mark>теории алгоритмов</mark> и <mark>паттернах разработки</mark>.
+  <mark>теории алгоритмов</mark> и <mark>паттернах разработки</mark>. Так же умею ползоваться
+  <mark>git</mark>, освоил <mark>Java</mark>, <mark>Android SDK</mark>, <mark>Unity</mark>
+  (<mark>C#</mark>,<mark>UniRX</mark>), <mark>Node.JS</mark>(<mark>Express</mark>,
+  <mark>Sequelize</mark>), <mark>C++</mark>
 
 content:
   - title: Портфолио # Title for the section
