@@ -9,7 +9,7 @@ version: 2
 
 # Personal info
 name: Каликин Андрей
-title: Middle Java Developer
+title: Middle Unity Developer
 email: kinzo.x.beato@gmail.com
 website: cyberimp.github.io
 
@@ -173,6 +173,17 @@ content:
 #          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Разработка ПО на <mark>Java</mark>, <mark>C#</mark>, иногда за плату.
+
+      - layout: left
+        title: Twocookies
+        sub_title: Unity Middle Developer
+        caption: декабрь 2017 &mdash; март 2019
+        quote: >
+          Компания-разработчик мобильных игр
+        description: |
+          Разработка игр и приложений на <mark>Unity</mark>, в основном <mark>AR</mark>
+          с использованием библиотеки <mark>Vuforia</mark>, получил навыки
+          <mark>удалённой работы</mark>
 
       - layout: left
         title: ООО “Ладога-Энерго”
