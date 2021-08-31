@@ -39,9 +39,6 @@ additional_links:
   - title: Мой телеграм
     icon: fab fa-telegram-plane
     url: https://t.me/ovoshi
-  - title: Напечатать
-    icon: fas fa-print
-    url: https://cyberimp.github.io/images/render.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -58,7 +55,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Меня зовут Андрей, я уверенный пользователь <mark>Linux</mark>, имею опыт в <mark>разработке ПО</mark>
   для <mark>ПК</mark> и <mark>Android</mark> и уверенные познания в <mark>математике</mark>,
-  <mark>теории алгоритмов</mark> и <mark>паттернах разработки</mark>. Так же умею ползоваться
+  <mark>теории алгоритмов</mark> и <mark>паттернах разработки</mark>. Так же умею пользоваться
   <mark>git</mark>, освоил <mark>Java</mark>, <mark>Android SDK</mark>, <mark>Unity</mark>
   (<mark>C#</mark>,<mark>UniRX</mark>), <mark>Node.JS</mark>(<mark>Express</mark>,
   <mark>Sequelize</mark>), <mark>C++</mark>
