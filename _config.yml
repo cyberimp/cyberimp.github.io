@@ -209,7 +209,6 @@ content:
     content:
       - layout: left
         title: Физико-механический инженерный колледж
-        link: https://cyberimp.github.io/otso_city
         caption: Техник
         sub_title: Программное обеспечение вычислительных комплексов, систем и сетей
         quote: >
