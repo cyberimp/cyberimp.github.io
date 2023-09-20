@@ -9,7 +9,7 @@ version: 2
 
 # Personal info
 name: Каликин Андрей
-title: Middle Unity Developer
+title: Intern Kotlin Developer
 email: kinzo.x.beato@gmail.com
 website: cyberimp.github.io
 
@@ -58,7 +58,7 @@ about_content: | # this will include new lines to allow paragraphs
   <mark>теории алгоритмов</mark> и <mark>паттернах разработки</mark>. Так же умею пользоваться
   <mark>git</mark>, освоил <mark>Java</mark>, <mark>Android SDK</mark>, <mark>Unity</mark>
   (<mark>C#</mark>,<mark>UniRX</mark>), <mark>Node.JS</mark>(<mark>Express</mark>,
-  <mark>Sequelize</mark>), <mark>C++</mark>
+  <mark>Sequelize</mark>), <mark>C++</mark>, немного <mark>Go</mark>
 
 content:
   - title: Портфолио # Title for the section
@@ -155,26 +155,39 @@ content:
         quote: >
           Каталог визуализаций для Poweramp
         description: | # this will include new lines to allow paragraphs
-          Написан на <mark>Java</mark>/<mark>Android SDK</mark>, кастомные View, очень много анимаций, с использованием рекламы <mark>Appodeal</mark>.
+          Написан на <mark>Java</mark>/<mark>Android SDK</mark>, кастомные View, очень много анимаций, с использованием
+          рекламы <mark>Appodeal</mark>.
 
   - title: Опыт работы # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Фриланс/личные проекты
-        #link: boringcompany.com
-        # link_text: boringcompany.com
-        #sub_title: Senior Network System Administrator
-        caption: По настоящее время
-#        quote: >
-#          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Разработка ПО на <mark>Java</mark>, <mark>C#</mark>, иногда за плату.
+        title: ООО &laquo;Пиццасофт&raquo;
+        link: pizzasoft.ru
+        sub_title: Junior PHP разработчик
+        caption: декабрь 2020 &mdash; февраль 2023
+        quote: >
+          Разработчик ПО для общепита (основной клиент &mdash; &laquo;Пиццафабрика&raquo;)
+        description: |
+          Правил монолит на <mark>PHP</mark>, добавляя эндпойты и исправляя баги. Иногда работал с мобильным
+          приложением. Самым большим достижением был перевод авторизации с СМС на звонки, который позволил сэкономить
+          компании несколько десятков тысяч рублей в месяц.
+
+#      - layout: left
+#        title: Фриланс/личные проекты
+#        #link: boringcompany.com
+#        # link_text: boringcompany.com
+#        #sub_title: Senior Network System Administrator
+#        caption: По настоящее время
+##        quote: >
+##          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+#        description: | # this will include new lines to allow paragraphs
+#            Разработка ПО на <mark>Java</mark>, <mark>C#</mark>, иногда за плату.
 
       - layout: left
         title: Twocookies
-        sub_title: Unity Middle Developer
-        caption: декабрь 2017 &mdash; март 2019
+        sub_title: Unity Developer
+        caption: декабрь 2017 &mdash; март 2018
         quote: >
           Компания-разработчик мобильных игр
         description: |
@@ -183,7 +196,7 @@ content:
           <mark>удалённой работы</mark>
 
       - layout: left
-        title: ООО “Ладога-Энерго”
+        title: ООО &laquo;Ладога-Энерго&raquo;
         link: ladoga-energo.ru
         # link_text: boringcompany.com
         sub_title: Администратор вычислительной сети
@@ -194,7 +207,7 @@ content:
             Поддержка <mark>бесперебойной работы</mark> <mark>компьютеров и сети</mark> административного комплекса завода, монтаж рабочих станций у станков. В основном настраивал на серверах 1С Предприятие.
 
       - layout: left
-        title: ООО “Новые Промышленные Технологии”
+        title: ООО &laquo;Новые Промышленные Технологии&raquo;
         # link: ladoga-energo.ru
         # link_text: boringcompany.com
         sub_title: Системный администратор
@@ -212,7 +225,7 @@ content:
         caption: Техник
         sub_title: Программное обеспечение вычислительных комплексов, систем и сетей
         quote: >
-          Сейчас называется “Технический колледж управления и коммерции”
+          Сейчас называется &laquo;Технический колледж управления и коммерции&raquo;
         description: | # this will include new lines to allow paragraphs
           За время обучения научился ключевым аспектам &mdash; работе в команде и
           завершению работы до дедлайна, так же изучал <mark>C</mark>, <mark>SQL</mark>,
