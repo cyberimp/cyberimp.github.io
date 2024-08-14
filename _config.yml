@@ -2,13 +2,13 @@
 repository: cyberimp/cyberimp.github.io
 favicon: images/favicon.ico
 github: [metadata]
-lang: ru
+lang: en
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Каликин Андрей
+name: Kalikin Andrei
 title: Intern Go Developer
 email: kinzo.x.beato@gmail.com
 website: cyberimp.github.io
@@ -36,7 +36,7 @@ additional_links:
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
-  - title: Мой телеграм
+  - title: Contact via Telegram
     icon: fab fa-telegram-plane
     url: https://t.me/ovoshi
 # - title: another link
@@ -50,40 +50,77 @@ gtag: "G-27RWTL36CM"
 # google_analytics: "UA-191465132-1"
 
 ## About Section
-about_title: Обо мне
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Меня зовут Андрей, я уверенный пользователь <mark>Linux</mark>, имею опыт в <mark>разработке ПО</mark>
-  для <mark>ПК</mark> и <mark>Android</mark> и уверенные познания в <mark>математике</mark>,
-  <mark>теории алгоритмов</mark> и <mark>паттернах разработки</mark>. Так же умею пользоваться
-  <mark>git</mark>, освоил <mark>Java</mark>, <mark>Android SDK</mark>, <mark>Unity</mark>
-  (<mark>C#</mark>,<mark>UniRX</mark>), <mark>Node.JS</mark>(<mark>Express</mark>,
-  <mark>Sequelize</mark>), <mark>C++</mark>, немного <mark>Go</mark>
+  My name is Andrei and I'm aspiring web developer. I have experience in deploying some pet projects and freelance and
+  worked in real commercial development over a year.
+  
+  Mostly skilled at <mark>Golang</mark>, but know a bit <mark>C++</mark>, <mark>Python</mark>
 
 content:
-  - title: Портфолио # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Пыль
-        link: https://github.com/cyberimp/Dust
-        # link_text: Project Website
-        additional_links:
-          - title:  github
-            icon: fab fa-github
-            url: https://github.com/cyberimp/Dust
-          - title:  youtube demo
-            icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=3RvzxkCBcSo
-
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      - layout: left
+        title: ООО &laquo;Пиццасофт&raquo;
+        link: pizzasoft.ru
+        sub_title: Junior PHP developer
+        caption: December 2020 &mdash; February 2023
         quote: >
-          Прототип аркады
-        description: | # this will include new lines to allow paragraphs
-          Прототип аркады на <mark>Unity</mark>, с <mark>REST</mark> бекэндом
+          Разработчик ПО для общепита (основной клиент &mdash; &laquo;Пиццафабрика&raquo;)
+        description: |
+          Правил монолит на <mark>PHP</mark>, добавляя эндпойты и исправляя баги. Добавлял микросервисы на <mark>Go</mark>.
+          Иногда работал с мобильным приложением. Самым большим достижением был перевод авторизации с СМС на звонки,
+          который позволил сэкономить компании несколько десятков тысяч рублей в месяц.
 
+      #      - layout: left
+      #        title: Фриланс/личные проекты
+      #        #link: boringcompany.com
+      #        # link_text: boringcompany.com
+      #        #sub_title: Senior Network System Administrator
+      #        caption: По настоящее время
+      ##        quote: >
+      ##          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+      #        description: | # this will include new lines to allow paragraphs
+      #            Разработка ПО на <mark>Java</mark>, <mark>C#</mark>, иногда за плату.
+
+      - layout: left
+        title: Twocookies
+        sub_title: Unity Developer
+        caption: март 2018 &mdash; май 2018
+        quote: >
+          Компания-разработчик мобильных игр
+        description: |
+          Разработка игр и приложений на <mark>Unity</mark>, в основном <mark>AR</mark>
+          с использованием библиотеки <mark>Vuforia</mark>, получил навыки
+          <mark>удалённой работы</mark>
+
+      - layout: left
+        title: ООО &laquo;Ладога-Энерго&raquo;
+        link: ladoga-energo.ru
+        # link_text: boringcompany.com
+        sub_title: Администратор вычислительной сети
+        caption: июнь 2017 &mdash; ноябрь 2017
+        quote: >
+          Предприятие по производству электрораспределительных устройств низкого напряжения
+        description: | # this will include new lines to allow paragraphs
+          Поддержка <mark>бесперебойной работы</mark> <mark>компьютеров и сети</mark> административного комплекса завода, монтаж рабочих станций у станков. В основном настраивал на серверах 1С Предприятие.
+
+      - layout: left
+        title: ООО &laquo;Новые Промышленные Технологии&raquo;
+        # link: ladoga-energo.ru
+        # link_text: boringcompany.com
+        sub_title: Системный администратор
+        caption: июнь 2014 &mdash; сентябрь 2015
+        quote: >
+          Компания, осуществляющая аутсорс обслуживание вычислительных сетей
+        description: | # this will include new lines to allow paragraphs
+          Поддержка <mark>бесперебойной работы</mark> парка из <mark>75 компьютеров</mark> проектной организации “Криогазтех” + выезды на другие объекты. <mark>ITIL</mark>, сервера <mark>AD</mark>, <mark>DNS</mark>, <mark>Asterisk</mark>, <mark>Лоцман</mark>.
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: top-middle
         title: ru_touhou
         link: sourceforge.net/p/touhou/code/HEAD/tree/trunk/
@@ -96,7 +133,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Движок для скроллшутера с нуля
+          Danmaku engine
         description: | # this will include new lines to allow paragraphs
           Движок на <mark>C++</mark>, с использованием <mark>OpenGL</mark> для рендера,
           <mark>SDL_sound</mark> для звука, <mark>LUA</mark> для скриптинга, код хостился на <mark>SVN</mark>.
@@ -157,65 +194,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Написан на <mark>Java</mark>/<mark>Android SDK</mark>, кастомные View, очень много анимаций, с использованием
           рекламы <mark>Appodeal</mark>.
-
-  - title: Опыт работы # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: ООО &laquo;Пиццасофт&raquo;
-        link: pizzasoft.ru
-        sub_title: Junior PHP разработчик
-        caption: декабрь 2020 &mdash; февраль 2023
-        quote: >
-          Разработчик ПО для общепита (основной клиент &mdash; &laquo;Пиццафабрика&raquo;)
-        description: |
-          Правил монолит на <mark>PHP</mark>, добавляя эндпойты и исправляя баги. Добавлял микросервисы на <mark>Go</mark>.
-          Иногда работал с мобильным приложением. Самым большим достижением был перевод авторизации с СМС на звонки,
-          который позволил сэкономить компании несколько десятков тысяч рублей в месяц.
-
-#      - layout: left
-#        title: Фриланс/личные проекты
-#        #link: boringcompany.com
-#        # link_text: boringcompany.com
-#        #sub_title: Senior Network System Administrator
-#        caption: По настоящее время
-##        quote: >
-##          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-#        description: | # this will include new lines to allow paragraphs
-#            Разработка ПО на <mark>Java</mark>, <mark>C#</mark>, иногда за плату.
-
-      - layout: left
-        title: Twocookies
-        sub_title: Unity Developer
-        caption: март 2018 &mdash; май 2018
-        quote: >
-          Компания-разработчик мобильных игр
-        description: |
-          Разработка игр и приложений на <mark>Unity</mark>, в основном <mark>AR</mark>
-          с использованием библиотеки <mark>Vuforia</mark>, получил навыки
-          <mark>удалённой работы</mark>
-
-      - layout: left
-        title: ООО &laquo;Ладога-Энерго&raquo;
-        link: ladoga-energo.ru
-        # link_text: boringcompany.com
-        sub_title: Администратор вычислительной сети
-        caption: июнь 2017 &mdash; ноябрь 2017
-        quote: >
-            Предприятие по производству электрораспределительных устройств низкого напряжения
-        description: | # this will include new lines to allow paragraphs
-            Поддержка <mark>бесперебойной работы</mark> <mark>компьютеров и сети</mark> административного комплекса завода, монтаж рабочих станций у станков. В основном настраивал на серверах 1С Предприятие.
-
-      - layout: left
-        title: ООО &laquo;Новые Промышленные Технологии&raquo;
-        # link: ladoga-energo.ru
-        # link_text: boringcompany.com
-        sub_title: Системный администратор
-        caption: июнь 2014 &mdash; сентябрь 2015
-        quote: >
-            Компания, осуществляющая аутсорс обслуживание вычислительных сетей
-        description: | # this will include new lines to allow paragraphs
-            Поддержка <mark>бесперебойной работы</mark> парка из <mark>75 компьютеров</mark> проектной организации “Криогазтех” + выезды на другие объекты. <mark>ITIL</mark>, сервера <mark>AD</mark>, <mark>DNS</mark>, <mark>Asterisk</mark>, <mark>Лоцман</mark>.
 
   - title: Образование # Title for the section
     layout: list # Type of content section (list/text)
