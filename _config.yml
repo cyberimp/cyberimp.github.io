@@ -139,35 +139,33 @@ content:
         title: ru_touhou
         link: sourceforge.net/p/touhou/code/HEAD/tree/trunk/
         # link_text: Project Website
-        additional_links:
-          - title:  ru_touhou sourceforge
-            icon: fas fa-hammer
-            url: https://sourceforge.net/p/touhou/code/HEAD/tree/trunk/
+#        additional_links:
+#          - title:  ru_touhou sourceforge
+#            icon: fas fa-hammer
+#            url: https://sourceforge.net/p/touhou/code/HEAD/tree/trunk/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Danmaku engine
         description: | # this will include new lines to allow paragraphs
-          <mark>C++</mark> engine, с использованием <mark>OpenGL</mark> для рендера,
-          <mark>SDL_sound</mark> для звука, <mark>LUA</mark> для скриптинга, код хостился на <mark>SVN</mark>.
+          <mark>C++</mark> engine, uses <mark>OpenGL</mark> for render, <mark>LUA</mark> for scripting.
 
       - layout: top-middle
         title: Asteroids
         link: github.com/cyberimp/Asteroids
         # link_text: Project Website
-        additional_links:
-          - title: GitHub проекта
-            icon: fab fa-github
-            url: https://github.com/cyberimp/Asteroids
+#        additional_links:
+#          - title: GitHub проекта
+#            icon: fab fa-github
+#            url: https://github.com/cyberimp/Asteroids
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Клон Atari Asteroids со сменным рендером, меняющимся по нажатию кнопки
+          Atari Asteroids with two renders switchable in runtime by press of key
         description: | # this will include new lines to allow paragraphs
-          Движок на <mark>C#</mark>, с использованием <mark>OpenGL</mark> для рендера,
-          код хостится на <mark>git</mark>.
+          <mark>C#</mark> engine, rendering backed by <mark>OpenGL</mark>.
 
 #      - layout: top-middle
 #        title: Pixchange bot
@@ -195,43 +193,40 @@ content:
         title: Spectrum Poweramp Visualisation
         link: https://play.google.com/store/apps/details?id=spectrum.poweramp.vis
         # link_text: Project Website
-        additional_links:
-          - title: Страница приложения в Play Market
-            icon: fab fa-google-play
-            url: https://play.google.com/store/apps/details?id=spectrum.poweramp.vis
+#        additional_links:
+#          - title: Страница приложения в Play Market
+#            icon: fab fa-google-play
+#            url: https://play.google.com/store/apps/details?id=spectrum.poweramp.vis
 
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Каталог визуализаций для Poweramp
+          Visualisation catalog for Poweramp
         description: | # this will include new lines to allow paragraphs
-          Написан на <mark>Java</mark>/<mark>Android SDK</mark>, кастомные View, очень много анимаций, с использованием
-          рекламы <mark>Appodeal</mark>.
+          Ads application written on <mark>Java</mark> from scratch, many custom <mark>Views</mark>,
+          ad SDK<mark>Appodeal</mark>.
 
-  - title: Образование # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Физико-механический инженерный колледж
-        caption: Техник
-        sub_title: Программное обеспечение вычислительных комплексов, систем и сетей
+        title: Physical and Mechanical Engineering College of Saint-Petersburg
+        caption: Technician
+        sub_title: Software for computer systems and networks
         quote: >
-          Сейчас называется &laquo;Технический колледж управления и коммерции&raquo;
+          Now it is &laquo;Technical College of Management and Commerce&raquo;
         description: | # this will include new lines to allow paragraphs
-          За время обучения научился ключевым аспектам &mdash; работе в команде и
-          завершению работы до дедлайна, так же изучал <mark>C</mark>, <mark>SQL</mark>,
-          <mark>Object Pascal</mark>, <mark>PHP</mark> и <mark>perl</mark>, получил
-          необходимые знания в <mark>математике</mark> и <mark>теории алгоритмов</mark>
-          для самостоятельного создания ПО.
+          Learned <mark>C</mark>, <mark>SQL</mark>, <mark>Object Pascal</mark>, <mark>PHP</mark> and 
+          <mark>perl</mark> mostly.
 
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#      - Rock climbing
-#      - Gaming
-#      - Knitting
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Playing punk-rock on bajan
+      - Gaming
+      - Learning languages
 #      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 #
 #      Look at this cool image
