@@ -116,12 +116,25 @@ content:
         quote: >
           Outsource tech support company
         description: | # this will include new lines to allow paragraphs
-          Support for <mark>uninterrupted operation</mark> of a fleet of <mark>75 computers</mark> of the design 
-          organization “Криогазтех” + visits to other sites. Gained a lot of knowledge about PC networks.
+          Support for the design organization “Криогазтех”'s fleet of <mark>75 computers</mark> + visits to other
+          sites. Gained a lot of knowledge about PC networks.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Steamview
+        link: https://github.com/cyberimp/steamview-go
+        # link_text: Project Website
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Program displaying current Steam running game
+        description: | # this will include new lines to allow paragraphs
+          <mark>Golang</mark> application, that parses asynchronously Steam game database and displays store banner for 
+          current running game. <mark>Websockets</mark>, lot of <mark>goroutines</mark>.
+
       - layout: top-middle
         title: ru_touhou
         link: sourceforge.net/p/touhou/code/HEAD/tree/trunk/
@@ -136,7 +149,7 @@ content:
         quote: >
           Danmaku engine
         description: | # this will include new lines to allow paragraphs
-          Движок на <mark>C++</mark>, с использованием <mark>OpenGL</mark> для рендера,
+          <mark>C++</mark> engine, с использованием <mark>OpenGL</mark> для рендера,
           <mark>SDL_sound</mark> для звука, <mark>LUA</mark> для скриптинга, код хостился на <mark>SVN</mark>.
 
       - layout: top-middle
