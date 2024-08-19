@@ -205,7 +205,7 @@ content:
           Visualisation catalog for Poweramp
         description: | # this will include new lines to allow paragraphs
           Ads application written on <mark>Java</mark> from scratch, many custom <mark>Views</mark>,
-          ad SDK<mark>Appodeal</mark>.
+          ad SDK <mark>Appodeal</mark>.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
