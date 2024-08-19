@@ -53,10 +53,10 @@ gtag: "G-27RWTL36CM"
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Andrei and I'm aspiring web developer. I have experience in deploying some pet projects and freelance and
+  My name is Andrei and I'm aspiring web developer. I have experience in deploying some pet projects, freelance and
   worked in real commercial development over a year.
   
-  Mostly skilled at <mark>Golang</mark>, but know a bit <mark>C++</mark>, <mark>Python</mark>
+  Mostly skilled at <mark>Golang</mark>, but know a bit <mark>C++</mark>, <mark>Python</mark>, <mark>Java</mark>
 
 content:
   - title: Experience # Title for the section
@@ -68,11 +68,10 @@ content:
         sub_title: Junior PHP developer
         caption: December 2020 &mdash; February 2023
         quote: >
-          Разработчик ПО для общепита (основной клиент &mdash; &laquo;Пиццафабрика&raquo;)
+          Company developing CRM for public catering (main client is OOO &laquo;Пиццафабрика&raquo;)
         description: |
-          Правил монолит на <mark>PHP</mark>, добавляя эндпойты и исправляя баги. Добавлял микросервисы на <mark>Go</mark>.
-          Иногда работал с мобильным приложением. Самым большим достижением был перевод авторизации с СМС на звонки,
-          который позволил сэкономить компании несколько десятков тысяч рублей в месяц.
+          Fixing <mark>PHP</mark> monolith, adding endpoints for new features and fixing bugs. Was writing some 
+          <mark>Go</mark> microservices. Sometimes fixed <mark>Android</mark> client.
 
       #      - layout: left
       #        title: Фриланс/личные проекты
@@ -85,38 +84,40 @@ content:
       #        description: | # this will include new lines to allow paragraphs
       #            Разработка ПО на <mark>Java</mark>, <mark>C#</mark>, иногда за плату.
 
-      - layout: left
-        title: Twocookies
-        sub_title: Unity Developer
-        caption: март 2018 &mdash; май 2018
-        quote: >
-          Компания-разработчик мобильных игр
-        description: |
-          Разработка игр и приложений на <mark>Unity</mark>, в основном <mark>AR</mark>
-          с использованием библиотеки <mark>Vuforia</mark>, получил навыки
-          <mark>удалённой работы</mark>
+#      - layout: left
+#        title: Twocookies
+#        sub_title: Unity Developer
+#        caption: март 2018 &mdash; май 2018
+#        quote: >
+#          Компания-разработчик мобильных игр
+#        description: |
+#          Разработка игр и приложений на <mark>Unity</mark>, в основном <mark>AR</mark>
+#          с использованием библиотеки <mark>Vuforia</mark>, получил навыки
+#          <mark>удалённой работы</mark>
 
       - layout: left
         title: ООО &laquo;Ладога-Энерго&raquo;
         link: ladoga-energo.ru
         # link_text: boringcompany.com
-        sub_title: Администратор вычислительной сети
-        caption: июнь 2017 &mdash; ноябрь 2017
+        sub_title: Tech support
+        caption: June 2017 &mdash; November 2017
         quote: >
-          Предприятие по производству электрораспределительных устройств низкого напряжения
+          Low-voltage switchgear plant
         description: | # this will include new lines to allow paragraphs
-          Поддержка <mark>бесперебойной работы</mark> <mark>компьютеров и сети</mark> административного комплекса завода, монтаж рабочих станций у станков. В основном настраивал на серверах 1С Предприятие.
+          Support of <mark>uninterrupted operation</mark> <mark>computers and networks</mark> of the administrative 
+          complex of the plant, installation of workstations at machine tools.
 
       - layout: left
         title: ООО &laquo;Новые Промышленные Технологии&raquo;
         # link: ladoga-energo.ru
         # link_text: boringcompany.com
-        sub_title: Системный администратор
-        caption: июнь 2014 &mdash; сентябрь 2015
+        sub_title: Tech support
+        caption: June 2014 &mdash; September 2015
         quote: >
-          Компания, осуществляющая аутсорс обслуживание вычислительных сетей
+          Outsource tech support company
         description: | # this will include new lines to allow paragraphs
-          Поддержка <mark>бесперебойной работы</mark> парка из <mark>75 компьютеров</mark> проектной организации “Криогазтех” + выезды на другие объекты. <mark>ITIL</mark>, сервера <mark>AD</mark>, <mark>DNS</mark>, <mark>Asterisk</mark>, <mark>Лоцман</mark>.
+          Support for <mark>uninterrupted operation</mark> of a fleet of <mark>75 computers</mark> of the design 
+          organization “Криогазтех” + visits to other sites. Gained a lot of knowledge about PC networks.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -155,27 +156,27 @@ content:
           Движок на <mark>C#</mark>, с использованием <mark>OpenGL</mark> для рендера,
           код хостится на <mark>git</mark>.
 
-      - layout: top-middle
-        title: Pixchange bot
-        link: pixchange.herokuapp.com
-        # link_text: Project Website
-        additional_links:
-          - title: GitHub проекта
-            icon: fab fa-github
-            url: https://github.com/cyberimp/Pixchange
-          - title: Сайт проекта
-            icon: fas fa-globe
-            url: https://pixchange.herokuapp.com
-          - title: Бот проекта
-            icon: fab fa-telegram-plane
-            url: https://t.me/PixChangeBot
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Бот для телеметрии, отсылающий сообщение в телеграм при загрузке изображения по ссылке.
-        description: | # this will include new lines to allow paragraphs
-          Написан на <mark>Node.js</mark>, использует <mark>SQL</mark> для хранения пользователей и <mark>AWS</mark> для хранения картинок, хостится на <mark>Heroku</mark>.
+#      - layout: top-middle
+#        title: Pixchange bot
+#        link: pixchange.herokuapp.com
+#        # link_text: Project Website
+#        additional_links:
+#          - title: GitHub проекта
+#            icon: fab fa-github
+#            url: https://github.com/cyberimp/Pixchange
+#          - title: Сайт проекта
+#            icon: fas fa-globe
+#            url: https://pixchange.herokuapp.com
+#          - title: Бот проекта
+#            icon: fab fa-telegram-plane
+#            url: https://t.me/PixChangeBot
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          Бот для телеметрии, отсылающий сообщение в телеграм при загрузке изображения по ссылке.
+#        description: | # this will include new lines to allow paragraphs
+#          Написан на <mark>Node.js</mark>, использует <mark>SQL</mark> для хранения пользователей и <mark>AWS</mark> для хранения картинок, хостится на <mark>Heroku</mark>.
 
       - layout: top-middle
         title: Spectrum Poweramp Visualisation
