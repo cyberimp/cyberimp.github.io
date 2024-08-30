@@ -63,7 +63,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: &laquo;Pizzasoft&raquo; LTD
+        title: "&laquo;Pizzasoft&raquo; LTD"
         link: pizzasoft.ru
         sub_title: Junior PHP developer
         caption: December 2021 &mdash; February 2023
@@ -96,7 +96,7 @@ content:
 #          <mark>удалённой работы</mark>
 
       - layout: left
-        title: &laquo;Ladoga-Energo&raquo; LTD
+        title: "&laquo;Ladoga-Energo&raquo; LTD"
         link: ladoga-energo.ru
         # link_text: boringcompany.com
         sub_title: Tech support
