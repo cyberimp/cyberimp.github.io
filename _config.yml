@@ -63,10 +63,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: ООО &laquo;Пиццасофт&raquo;
+        title: &laquo;Pizzasoft&raquo; LTD
         link: pizzasoft.ru
         sub_title: Junior PHP developer
-        caption: December 2020 &mdash; February 2023
+        caption: December 2021 &mdash; February 2023
         quote: >
           Company developing CRM for public catering (main client is OOO &laquo;Пиццафабрика&raquo;)
         description: |
@@ -96,7 +96,7 @@ content:
 #          <mark>удалённой работы</mark>
 
       - layout: left
-        title: ООО &laquo;Ладога-Энерго&raquo;
+        title: &laquo;Ladoga-Energo&raquo; LTD
         link: ladoga-energo.ru
         # link_text: boringcompany.com
         sub_title: Tech support
@@ -108,7 +108,7 @@ content:
           complex of the plant, installation of workstations at machine tools.
 
       - layout: left
-        title: ООО &laquo;Новые Промышленные Технологии&raquo;
+        title: &laquo;New industrial technologies&raquo; LTD
         # link: ladoga-energo.ru
         # link_text: boringcompany.com
         sub_title: Tech support
